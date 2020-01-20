@@ -112,7 +112,7 @@ CREATE TABLE S(
 
 /* É¾³ý±í drop table S */
 
-select * from S
+select * from SC
 
 
 

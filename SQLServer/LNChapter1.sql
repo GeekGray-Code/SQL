@@ -17,7 +17,7 @@ CREATE TABLE LNStudents
 	Dno CHAR(5),			/*系别编号*/
 	CONSTRAINT FK_Dno FOREIGN KEY(Dno) REFERENCES LNDepts
 )
-SELECT * FROM LNStudents 
+SELECT * FROM LNSPJ 
 /*DROP TABLE LNStudents*/
 
 
@@ -47,7 +47,7 @@ CREATE TABLE LNReports
 /*****************************************************************************************/
 /*************************************insert 插入数据**********************************/
 
-SELECT * FROM LNReports
+SELECT * FROM LNCourses
 
 INSERT INTO LNDepts VALUES('D01','自动化')
 INSERT INTO LNDepts VALUES('D02','计算机')
